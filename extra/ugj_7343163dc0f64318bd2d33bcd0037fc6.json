@@ -1,0 +1,23 @@
+{
+    "meta":{
+        "author":"xingyue",
+        "level":3,
+        "name":"[user:\u7b80\u5355\u6d4b\u8bd5poc\u63d0\u4ea4]",
+        "references":{
+            "cve":"",
+            "kpid":"",
+            "url":""
+        },
+        "remarks":"poc\u8be6\u7ec6\u63cf\u8ff0",
+        "type":"XSS"
+    },
+    "request":{
+        "path":"/info/go",
+        "postData":""
+    },
+    "target":"web",
+    "verify":{
+        "match":"something",
+        "type":"string"
+    }
+}

@@ -1,0 +1,21 @@
+<nav class="navbar navbar-inverse" role="navigation">
+    <div class="container-fluid">
+    <div class="navbar-header">
+        <a class="navbar-brand" href="javascript:;">poc-sanner</a>
+    </div>
+    <div>
+        <ul class="nav navbar-nav">
+            <li class="_pluginList"><a href="/page/pluginList">插件列表</a></li>
+            <li class="_registerPlugin"><a href="/page/registerPlugin">添加插件</a></li>
+            <li class="_scanItem"><a href="/page/scanItem">扫描</a></li>
+        </ul>
+    </div>
+    </div>
+</nav>
+
+<script>
+$(function(){
+    var pageName = location.pathname.split("/")[2];
+    $("li._" + pageName).addClass("active");
+});
+</script>
